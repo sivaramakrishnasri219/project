@@ -1,0 +1,4 @@
+<h2>Your Cart</h2>
+{% for item in items %}
+<p>{{ item.product.name }} - ₹{{ item.product.price }}</p>
+{% endfor %}
